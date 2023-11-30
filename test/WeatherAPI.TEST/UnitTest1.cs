@@ -21,7 +21,7 @@ namespace SimpleAPI.TEST
             var controller = new WeatherController(loggerMock);
 
             // Act
-            var result = await controller.City("Ha Noi");
+            var result = await controller.City("Ha Noi 1");
 
             // Assert
             Assert.NotNull(result); 
